@@ -55,7 +55,6 @@ describe("Escribe tus propios tests", () => {
 
         // Escribe aquí tu condicional contemplando las 2 casuísticas. En este caso, el saludo debe ser "¡Hola!" o bien "Hello!".
         
-
         expect(greeting).toBe("Hello!");
     })
 
@@ -66,7 +65,6 @@ describe("Escribe tus propios tests", () => {
         
         // Escribe aquí tu condicional contemplando las 3 casuísticas
     
-
         expect(saludo).toEqual("Buenas tardes");
     })
 

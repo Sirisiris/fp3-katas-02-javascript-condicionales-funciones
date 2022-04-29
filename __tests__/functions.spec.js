@@ -4,8 +4,9 @@ describe("Funciones en JavaScript", () => {
     test("Las funciones pueden tener 1 parámetro", () => {
         let name = "Rosa";
 
-        // Escribe aquí tu funcion "saludar"
-        
+     function saludar (name) {
+            return `Hola, ${name}`;
+        }
 
         expect(saludar(name)).toBe("Hola, Rosa");
     })
@@ -15,8 +16,9 @@ describe("Funciones en JavaScript", () => {
         let num1 = 17;
         let num2 = 10;
 
-        // Escribe aquí tu función "suma"
-        
+     function suma (num1, num2) {
+         return num1 + num2;
+     } 
 
         expect(suma(num1, num2)).toEqual(27);
     })
@@ -29,6 +31,9 @@ describe("Funciones en JavaScript", () => {
         let weather = "soleado";
         let rainProbability = "10%";
 
+        function weatherReport (userName, name, city, weather, rainProbability) {
+        return `Hola ${name} (${userName}), hoy en ${city} el tiempo es ${weather} y las probabilidades de lluvia son del ${rainProbability}.` ;
+        }
         // Escribe aquí tu función "weatherReport" (fíjate en el 'expect' para saber qué debe retornar esta función).
         
 
