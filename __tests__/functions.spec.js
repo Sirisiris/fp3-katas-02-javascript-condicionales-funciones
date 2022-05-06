@@ -34,9 +34,7 @@ describe("Funciones en JavaScript", () => {
         function weatherReport (userName, name, city, weather, rainProbability) {
         return `Hola ${name} (${userName}), hoy en ${city} el tiempo es ${weather} y las probabilidades de lluvia son del ${rainProbability}.` ;
         }
-        // Escribe aquí tu función "weatherReport" (fíjate en el 'expect' para saber qué debe retornar esta función).
         
-
         expect(weatherReport(userName, name, city, weather, rainProbability)).toEqual("Hola Ada Martín (ada89), hoy en Las Vegas el tiempo es soleado y las probabilidades de lluvia son del 10%.");
     })
 
